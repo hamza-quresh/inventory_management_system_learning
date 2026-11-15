@@ -1,6 +1,4 @@
-def main():
-    print("Hello from inventory-management-system-learning!")
-
+import uvicorn
 
 if __name__ == "__main__":
-    main()
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
