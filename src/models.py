@@ -1,6 +1,6 @@
 from typing import override
 
-from sqlalchemy import Column, Float, ForeignKey, Integer, String, null
+from sqlalchemy import Column, Float, ForeignKey, Integer, String
 
 from database import Base, SessionLocal
 
